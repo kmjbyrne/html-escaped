@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/kmjbyrne/html-escaped.svg?branch=master)](https://travis-ci.org/kmjbyrne/html-escaped)
+[![npm version](https://badge.fury.io/js/html-escaped.svg)](https://badge.fury.io/js/html-escaped)
 
 # HTML Escaped
 
