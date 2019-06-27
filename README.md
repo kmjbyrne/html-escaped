@@ -1,4 +1,4 @@
-https://travis-ci.org/kmjbyrne/html-escaped.svg?branch=master
+[![Build Status](https://travis-ci.org/kmjbyrne/html-escaped.svg?branch=master)](https://travis-ci.org/kmjbyrne/html-escaped)
 
 # HTML Escaped
 
