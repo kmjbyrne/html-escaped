@@ -15,8 +15,8 @@ class HTMLEscape {
         return line.search(/\S|$/);
     }
 
-    static getDesignatedElements() {
-        return document.getElementsByClassName('html-escaped-code-block');
+    static getDesignatedElements(element = document) {
+        return element.getElementsByClassName('html-escaped-code-block');
     }
 
     static splitHTMLStringArray(value) {
@@ -45,8 +45,8 @@ class HTMLEscape {
         element.innerHTML = innerHTML;
     }
 
-    static do() {
-        let elements = HTMLEscape.getDesignatedElements();
+    static do(rootElement = document) {
+        let elements = HTMLEscape.getDesignatedElements(rootElement);
         for (let index = 0; index < elements.length; index++) {
             let splitString = HTMLEscape.splitHTMLStringArray(elements[index].innerHTML);
             let firstMarkupLine = HTMLEscape.determineFirstMarkupLine(elements[index]);
